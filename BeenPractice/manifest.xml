@@ -1,0 +1,5 @@
+<resource:Application
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="BeenPractice"
+    basePackage="com.tmax.pfs.been"
+    root="MainBeenPracticeWindow"/>

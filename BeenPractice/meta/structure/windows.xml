@@ -1,0 +1,9 @@
+<resource:Windows
+        xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
+            <resource:Window
+            id="MainBeenPracticeWindow"
+            ideUniqueId="ID848e56a2b90b32a9aa2403dcd60deacd"
+            content="MainBeenPracticePage"
+            package="com.tmax.pfs.been.window"
+            title="New Window"/>
+</resource:Windows>

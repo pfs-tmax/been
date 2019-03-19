@@ -1,0 +1,8 @@
+<resource:LinearLayout
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="MainBeenPracticeLayout"
+    ideUniqueId="ID0a922e2c640a3d70b58b0d5cc46582ae"
+    layoutHeight="match_parent"
+    layoutWidth="match_parent"
+    internalPageView="MainBeenPracticePage"
+    orientation="vertical"/>

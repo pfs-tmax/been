@@ -1,0 +1,22 @@
+{
+		  "ecmaVersion": 5,
+		  "ide": {
+		    "scriptPaths": [
+		      {
+		        "type": "FILE",
+		        "path": "top-api.js"
+		      }
+		    ]
+		  },
+		  "plugins": {
+		    "guess-types": {
+		      
+		    },
+		    "outline": {
+		      
+		    }
+		  },
+		  "libs": [
+		    
+		  ]
+		}

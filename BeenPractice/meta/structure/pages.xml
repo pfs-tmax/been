@@ -1,0 +1,8 @@
+<resource:PageViews
+        xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
+            <resource:PageView
+            id="MainBeenPracticePage"
+            ideUniqueId="ID188ecf44ffcb303f9a14959753ff8782"
+            content="MainBeenPracticeLayout"
+            package="com.tmax.pfs.been.pageview"/>
+</resource:PageViews>
