@@ -2,4 +2,6 @@
     xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
     id="BeenPractice"
     basePackage="com.tmax.pfs.been"
-    root="MainBeenPracticeWindow"/>
+    liveReload="true"
+    root="MainBeenPracticeWindow"
+    webController="BeenPracticeLogic"/>

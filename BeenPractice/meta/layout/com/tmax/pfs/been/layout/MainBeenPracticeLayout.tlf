@@ -1,8 +1,22 @@
 <resource:LinearLayout
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
     id="MainBeenPracticeLayout"
     ideUniqueId="ID0a922e2c640a3d70b58b0d5cc46582ae"
     layoutHeight="match_parent"
     layoutWidth="match_parent"
     internalPageView="MainBeenPracticePage"
-    orientation="vertical"/>
+    webController="MainBeenPracticeLayoutLogic"
+    webControllerJs="src/logic/btn/dialogOpen.js"
+    orientation="vertical">
+        <resource:Button
+        id="Button778"
+        layoutHeight="wrap_content"
+        layoutHorizontalAlignment="LEFT"
+        layoutWidth="wrap_content"
+        text="New Button">
+            <resource:Event
+            xsi:type="resource:WidgetEvent"
+            onClick="#openAccountDialog"/>
+        </resource:Button>
+</resource:LinearLayout>

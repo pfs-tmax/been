@@ -1,2 +1,17 @@
 <resource:Dialogs
-    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"/>
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
+            <resource:Dialog
+            id="AccountDialog"
+            ideUniqueId="ID764eb01bfd0b3c639b6543d255253faa"
+            layoutHeight="600"
+            layoutWidth="600"
+            closedOnclickOutside="true"
+            dialogLayout="AccountLayout"
+            isConfirmation="false"
+            package="com.tmax.pfs.been.dialog"
+            title="AccountDialog">
+                <resource:Event
+                xsi:type="resource:DialogEvent"/>
+            </resource:Dialog>
+</resource:Dialogs>
