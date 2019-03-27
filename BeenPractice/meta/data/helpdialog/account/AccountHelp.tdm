@@ -1,0 +1,15 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="AccountHelp"
+    ideUniqueId="ID5af46370a7f43338a1be093dab1e4695"
+    package="helpdialog.account">
+        <resource:dataField
+        fieldType="String"
+        name="AccountHelp_field0"/>
+        <resource:dataField
+        fieldType="String"
+        name="AccountHelp_field1"/>
+        <resource:dataField
+        fieldType="String"
+        name="AccountHelp_field2"/>
+</resource:DataModel>

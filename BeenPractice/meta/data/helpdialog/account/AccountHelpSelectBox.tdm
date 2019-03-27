@@ -1,0 +1,10 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="AccountHelpSelectBox"
+    ideUniqueId="ID9ddcae6d0e393ee8af4990b3cde71dfb"
+    package="helpdialog.account">
+        <resource:dataField
+        fieldType="String"
+        initValue="wewef"
+        name="AccountHelpSelectBox_field0"/>
+</resource:DataModel>
