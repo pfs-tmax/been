@@ -88,12 +88,13 @@ Top.Controller.create('AccountLayoutLogic', {
 	         drHelpAccount.diAccountHelp=check;
 	          tv = Top.Dom.selectById("AccountListTable");
 	          tv.update();
+	          tv.check(0,false);
 		
 	}
  
 	   
 	}, fastSearch : function(event, widget) {
-
+		/*
 		var check = new Array();
         for(var i = 0; i<dto.AccountDOList.length;i++){
            if(dto.AccountDOList[i].ACC4_NAME.toString().includes(Top.Dom.selectById("FastSearchField").getText())){
@@ -103,7 +104,43 @@ Top.Controller.create('AccountLayoutLogic', {
               drHelpAccount.diAccountHelp=check;
 	          tv = Top.Dom.selectById("AccountListTable");
 	          tv.update();
+	*/
 	
+		drHelpAccount.diAccountHelp=dto.AccountDOList;
+		tv = Top.Dom.selectById("AccountListTable");
+		var check = new Array();
+		var a=0;
+        for(var i = 0; i<dto.AccountDOList.length;i++){
+           if(dto.AccountDOList[i].ACC4_NAME.toString().includes(Top.Dom.selectById("FastSearchField").getText())){
+               a=i;
+        	   break;
+            }
+        }
+
+        tv.update();
+        tv.selectData(a);
+        aa=$("tv.getSelectedData");
+        bb=$("#AccountListTable");
+        bb.animate({scrollTop : aa.offset.Top}, 100);
+        console.log("d먹힘");
+        
+
+        
+//        for(var k=a; k<dto.AccountDOList.length; k++){
+//        	check.push(dto.AccountDOList[k]);
+//        }
+        
+        
+              
+	          
+	          
+	          
+	        
+	          
+	          
+	         
+		
+		
    }, dummyFun : function(event, widget) {
 	}
 	     

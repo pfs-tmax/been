@@ -18,10 +18,10 @@ Top.Controller.create('AccountLayoutLogic', {
 		        success: function(result) {
 		          console.log("Ajax success");
 		          dto= result["dto"];
-		          console.log(dto_2);
+		          console.log(dto);
 		          
 		          		         
-		          drHelpAccount.diAccountHelp=dto_2.AccountDOList;
+		          drHelpAccount.diAccountHelp=dto.AccountDOList;
 		          tv = Top.Dom.selectById("AccountListTable");
 		          tv.update();         	          
 		          
@@ -58,6 +58,9 @@ Top.Controller.create('AccountLayoutLogic', {
 	          alert("Ajax failed");
 	        }
 	      })
-		}	
+		}
+		tv = Top.Dom.selectById("AccountListTable");
+		tv.check(0,false);
+		
 	}
 });

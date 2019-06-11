@@ -10,7 +10,7 @@
     orientation="vertical">
         <resource:LinearLayout
         id="LinearLayout24"
-        backgroundColor="#EDF2C2"
+        backgroundColor="#FFFFFF"
         layoutHeight="30"
         layoutHorizontalAlignment="CENTER"
         layoutWidth="match_parent">
@@ -78,6 +78,8 @@
             layoutHorizontalAlignment="RIGHT"
             layoutWidth="match_parent"
             margin="0,10,10,20"
+            scrollHorizontal="false"
+            scrollVertical="true"
             itemData="{drHelpAccount@diAccountHelp}">
                 <resource:TableHeader
                 id="Widget080e0c9232bd3c7698b4f52599e738a2"
@@ -100,16 +102,25 @@
                         id="Widget0f8c374405013167a553a3736f0da504"
                         layoutWidth="match_parent"
                         text="계정이름">
+                            <resource:Event
+                            xsi:type="resource:CollectionItemEvent"
+                            onDoubleClick="#rowconfirmButton"/>
                         </resource:HeaderColumn>
                     </resource:HeaderRow>
                 </resource:TableHeader>
                 <resource:RowItem
-                id="Widget3c6819f3c97b3442b8a15f2a7009ce4b"
+                id="RowinAccountListTable"
                 layoutWidth="match_parent">
+                    <resource:Event
+                    xsi:type="resource:PackageItemEvent"
+                    onDoubleClick="#rowconfirmButton"/>
                     <resource:ColumnItem
                     id="colItem01"
                     horizontalAlignment="LEFT"
                     text="{ACC4_CODE}">
+                        <resource:Event
+                        xsi:type="resource:CollectionItemEvent"
+                        onDoubleClick="#rowconfirmButton"/>
                     </resource:ColumnItem>
                     <resource:ColumnItem
                     id="colItem02"
@@ -210,5 +221,12 @@
                 xsi:type="resource:WidgetEvent"
                 onClick="#confirmButton"/>
             </resource:Button>
+            <resource:VideoView
+            id="VideoView72"
+            layoutHeight="34"
+            layoutLeft="11"
+            layoutTop="2"
+            layoutWidth="92">
+            </resource:VideoView>
         </resource:AbsoluteLayout>
 </resource:LinearLayout>

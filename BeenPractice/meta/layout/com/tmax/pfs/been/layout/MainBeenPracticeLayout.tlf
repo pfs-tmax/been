@@ -19,4 +19,35 @@
             xsi:type="resource:WidgetEvent"
             onClick="#openAccountDialog"/>
         </resource:Button>
+        <resource:TreeView
+        id="TreeView16"
+        layoutHeight="444"
+        layoutHorizontalAlignment="LEFT"
+        layoutWidth="1160"
+        itemData="">
+            <resource:TreeItem
+            id="TreeView16_TreeItem1"
+            layoutHeight="wrap_content"
+            layoutWidth="wrap_content"
+            text="{Depth1_field0}"
+            modelId="Depth1">
+                <resource:TreeItem
+                id="TreeView16_TreeItem1_0"
+                layoutHeight="wrap_content"
+                layoutWidth="wrap_content"
+                text="{Child_depth2}"
+                modelId="Depth1">
+                </resource:TreeItem>
+            </resource:TreeItem>
+        </resource:TreeView>
+        <resource:Button
+        id="Button183"
+        layoutHeight="wrap_content"
+        layoutHorizontalAlignment="CENTER"
+        layoutWidth="wrap_content"
+        text="트리뷰 형성하자">
+            <resource:Event
+            xsi:type="resource:WidgetEvent"
+            onClick="#maketreeview"/>
+        </resource:Button>
 </resource:LinearLayout>

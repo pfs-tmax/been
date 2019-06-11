@@ -1,0 +1,13 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="Depth2"
+    ideUniqueId="ID59a3d391879234499ca974a7541f5627"
+    package="practice.treeviewdata">
+        <resource:dataField
+        fieldType="String"
+        name="Depth2_field0"/>
+        <resource:dataField
+        fieldType="List"
+        name="Child_depth3"
+        userType="practice.treeviewdata.Depth3"/>
+</resource:DataModel>
